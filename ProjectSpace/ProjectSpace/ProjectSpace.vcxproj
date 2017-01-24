@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4CF33A4-57C3-42BC-B8E0-E075514CFF44}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ProjectSpace</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx9d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="building.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="entities.h" />
+    <ClInclude Include="ErrorLogger.h" />
+    <ClInclude Include="errortype.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="gamecode.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GamepadClass.h" />
+    <ClInclude Include="gametimer.h" />
+    <ClInclude Include="KeyboardBuffer.h" />
+    <ClInclude Include="mydrawengine.h" />
+    <ClInclude Include="myinputs.h" />
+    <ClInclude Include="mysoundengine.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="objecttypes.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shapes.h" />
+    <ClInclude Include="spaceship.h" />
+    <ClInclude Include="vector2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="entities.cpp" />
+    <ClCompile Include="ErrorLogger.cpp" />
+    <ClCompile Include="gamecode.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="gametimer.cpp" />
+    <ClCompile Include="KeyboardBuffer.cpp" />
+    <ClCompile Include="mydrawengine.cpp" />
+    <ClCompile Include="myinputs.cpp" />
+    <ClCompile Include="mysoundengine.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="vector2D.cpp" />
+    <ClCompile Include="wincode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectSpace.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ammobar.png" />
+    <Image Include="bar.png" />
+    <Image Include="bg.jpg" />
+    <Image Include="building.bmp" />
+    <Image Include="building1.png" />
+    <Image Include="building2.png" />
+    <Image Include="building3.png" />
+    <Image Include="building4.png" />
+    <Image Include="building5.png" />
+    <Image Include="building6.png" />
+    <Image Include="building7.png" />
+    <Image Include="building8.png" />
+    <Image Include="building9.png" />
+    <Image Include="bullet.png" />
+    <Image Include="bulletnum.png" />
+    <Image Include="earth.png" />
+    <Image Include="earthbg.jpg" />
+    <Image Include="enemy1.png" />
+    <Image Include="enemy2.png" />
+    <Image Include="enemy3.png" />
+    <Image Include="explosion1.png" />
+    <Image Include="explosion2.png" />
+    <Image Include="explosion3.png" />
+    <Image Include="explosion4.png" />
+    <Image Include="explosion5.png" />
+    <Image Include="explosion6.png" />
+    <Image Include="explosion7.png" />
+    <Image Include="explosion8.png" />
+    <Image Include="fuelbar.png" />
+    <Image Include="fuelnum.png" />
+    <Image Include="gamebg.png" />
+    <Image Include="guns.png" />
+    <Image Include="hpbar.png" />
+    <Image Include="logo.png" />
+    <Image Include="particle0.png" />
+    <Image Include="particle1.png" />
+    <Image Include="particle2.png" />
+    <Image Include="particle3.png" />
+    <Image Include="particle4.png" />
+    <Image Include="particle5.png" />
+    <Image Include="particle6.png" />
+    <Image Include="particle7.png" />
+    <Image Include="particle8.png" />
+    <Image Include="pickup_ammo.png" />
+    <Image Include="pickup_hp.png" />
+    <Image Include="red-cross2-1024x682.png" />
+    <Image Include="road2.png" />
+    <Image Include="shipsheet.png" />
+    <Image Include="spacebg.png" />
+    <Image Include="spaceship.bmp" />
+    <Image Include="spaceship.png" />
+    <Image Include="sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bullet.wav" />
+    <Media Include="explosion.wav" />
+    <Media Include="lowhp.wav" />
+    <Media Include="menuclick.wav" />
+    <Media Include="pickup.wav" />
+    <Media Include="refuel.wav" />
+    <Media Include="thrust.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="error.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectSpace.aps" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

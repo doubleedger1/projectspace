@@ -1,0 +1,44 @@
+Player
+- Rotate the player using A and D for left and right rotation.
+
+- Use the W key to apply forward thrust in the direction the ship
+is facing.
+
+- Fire a bullet from the ship by pressing the space key.
+
+- Your fuel and health gets used up depending on difficulty.
+
+- Once you have no fuel you will no longer be able to fly.
+
+- You can commit suicide in the case of having no fuel pressing 'K'.
+
+- You receive damage from enemy bullets and speedy building collisions.
+
+- You have a score that increases as you move along or kill enemies.
+
+Enemies
+- There are 3 types of enemies, one scrolls along, one goes up and down
+and the other will stay in its position firing towards you at an offset.
+
+- You can kill these enemies to gain points towards your overall score.
+
+Buildings
+- You can land on all the buildings provided you are upright and you 
+don't land at a speed too fast.
+
+- Some buildings are refuel buildings. These will refill your ammunition
+and your fuel if you are below the capacity for either of those.
+
+Pickups
+- There is a chance that pickups will spawn slightly above the buildings.
+
+- There are 3 types of pickups, one is a health pickup which heals 25 hp,
+one is a bullet pickup that provides you with a few extra bullets and 
+the last one is a shield that provides protection for a damage capacity 
+or a 10 second timer where the shield will destroy itself.
+
+Once you have died you will be taken to the high scores page and be informed
+that you have died and you will be told your score and shown the high scores.
+
+Have fun!
+

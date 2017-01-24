@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="errortype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gamecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gametimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mydrawengine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myinputs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mysoundengine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objecttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="building.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spaceship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gamecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gametimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mydrawengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myinputs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysoundengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wincode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectSpace.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ammobar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bg.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bulletnum.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="earth.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="earthbg.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemy1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemy2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemy3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explosion8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fuelbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fuelnum.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gamebg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="guns.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hpbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="particle8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pickup_ammo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pickup_hp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="red-cross2-1024x682.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shipsheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="spacebg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="spaceship.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="spaceship.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sun.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bullet.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="explosion.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="lowhp.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="menuclick.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="pickup.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="refuel.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="thrust.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="error.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectSpace.aps" />
+  </ItemGroup>
+</Project>
